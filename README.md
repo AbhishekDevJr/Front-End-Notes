@@ -234,3 +234,6 @@ React Advanced Concepts:-<br><br>
 
   Suspense Boundary provides a FallBack UI during rendering of a component when Code Splitting
 --> 3. ErrorBoundary :- Can be used to fallback to a UI Component that gets rendered when some error occurs on the FrontEnd Side of the Code.
+
+https://sharkiller.ddns.net/nopixel_minigame/
+humanbenchmark
