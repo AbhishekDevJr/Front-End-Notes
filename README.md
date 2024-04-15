@@ -237,3 +237,58 @@ React Advanced Concepts:-<br><br>
 
 https://sharkiller.ddns.net/nopixel_minigame/
 humanbenchmark
+
+
+Data Strcutures & Algorithms Continuation........
+
+Data Structures in Focus:-
+1. Strings
+2. Array
+3. Linked List
+4. Stack
+5. Queue
+
+Algorigthms in Focus:-
+-> Searching Algorithms like:-
+  1. Linear Search
+  2. Binary Search
+
+-> Sorting Algorithms like:-
+  1. Quick Sort
+  2. Bubble Sort
+  3. Merge Sort
+  4. Heap Sort
+
+
+Algorithms Implementation:-
+1. Quick Sort:-
+    const quickSort = (arr) => {
+  if(arr.length <= 1){
+    return arr;
+  }
+  
+  const pivot = arr[Math.floor(arr.length/2)];
+  const left = [];
+  const right = [];
+  const equal = [];
+    
+  for(let item of arr){
+    if(item < pivot){
+      left.push(item);
+    }
+    else if(item > pivot){
+      right.push(item);
+    }
+    else{
+      equal.push(item);
+    }
+  }
+  
+  return [...quickSort(left), ...equal, ...quickSort(right)];
+}
+
+console.log(quickSort([3,2,1, 0, 3, 1, 6, 0, 7, 1, 1, 5, 4, 2]));
+
+
+
+     
